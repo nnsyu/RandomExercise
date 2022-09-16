@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="TEXT_SIZE_BUTTON">18dp</dimen>
+    <dimen name="TEXT_SIZE_DEFAULT">20dp</dimen>
+    <dimen name="TEXT_SIZE_SUB">13dp</dimen>
+    <dimen name="TEXT_SIZE_BIG">40dp</dimen>
+</resources>

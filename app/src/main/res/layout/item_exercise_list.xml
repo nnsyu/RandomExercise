@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/bg_radius"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/i_exercise_tv_exercise"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="벤치프레스"
+        android:textColor="@color/white"
+        android:textSize="@dimen/TEXT_SIZE_DEFAULT"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white"
+        android:layout_marginVertical="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/i_exercise_tv_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:paddingStart="20dp"
+            android:gravity="end"
+            android:text="10"
+            android:textSize="@dimen/TEXT_SIZE_BIG"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:text="rep"
+            android:textSize="@dimen/TEXT_SIZE_SUB"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/i_exercise_tv_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="20dp"
+            android:layout_marginEnd="5dp"
+            android:gravity="end"
+            android:text="20"
+            android:textSize="@dimen/TEXT_SIZE_BIG"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="set"
+            android:textSize="@dimen/TEXT_SIZE_SUB"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>

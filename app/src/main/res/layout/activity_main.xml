@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.MainActivity"
+    android:background="@drawable/img_bg">
+
+    <LinearLayout
+        android:id="@+id/a_main_layout_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/a_main_iv_list"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/img_list"
+            android:clickable="false"
+            android:focusable="false"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="운동 등록"
+            android:textColor="@color/white"
+            android:textSize="@dimen/TEXT_SIZE_DEFAULT"
+            android:textStyle="bold"
+            android:shadowColor="@color/black"
+            android:shadowRadius="2"
+            android:shadowDx="1"
+            android:shadowDy="2"
+            android:clickable="false"
+            android:focusable="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/a_main_layout_weight"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/a_main_iv_weight"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/img_weight"
+            android:clickable="false"
+            android:focusable="false"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="운동 시작"
+            android:textColor="@color/white"
+            android:textSize="@dimen/TEXT_SIZE_DEFAULT"
+            android:textStyle="bold"
+            android:shadowColor="@color/black"
+            android:shadowRadius="2"
+            android:shadowDx="1"
+            android:shadowDy="2"
+            android:clickable="false"
+            android:focusable="false"/>
+
+    </LinearLayout>
+
+</LinearLayout>
