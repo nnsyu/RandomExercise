@@ -1,2 +1,2 @@
 # RandomExercise
-5
+6
